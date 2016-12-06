@@ -57,7 +57,7 @@ class Md5sum
 
         $lcn = 0;
         foreach ($this->filelist($dir, $deep) as $file) {
-            if (is_file($file) and $file != $this->md5sums) {
+            if (is_file($file) && ($file != $this->md5sums)) {
                 $lcn ++;
                 $lines[] =  md5_file($file) . '  ' . $this->trimPath($this->getRelativePath($md5sums_dir, $file));
             }
@@ -82,7 +82,6 @@ class Md5sum
         $fh = fopen($this->md5sums, "r");
         $sep = '';
         $lc = 0;
-        $lines = [];
         while (!feof($fh)) {
             $lc++;
             $line = fgets($fh);
