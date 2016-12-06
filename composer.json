@@ -1,7 +1,7 @@
 {
     "name": "ottosmops/md5sum",
     "type": "library",
-    "description": ":creates and verifies md5sum files",
+    "description": "create and verifie md5sum files",
     "keywords": [
         "ottosmops",
         "md5sum",
