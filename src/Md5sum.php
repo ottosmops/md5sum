@@ -3,7 +3,7 @@
 /**
  * Md5sum create and verify md5sum files
  *
- * PHP version 5.6
+ * PHP version >=7.1
  *
  * @category File-Verification
  * @package  Md5sum
