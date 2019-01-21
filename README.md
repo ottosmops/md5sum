@@ -6,6 +6,8 @@
 [![SensioLabsInsight](https://insight.sensiolabs.com/projects/248db8b3-4969-48c5-9a61-9c7346832ff0/mini.png)](https://insight.sensiolabs.com/projects/248db8b3-4969-48c5-9a61-9c7346832ff0)
 [![Packagist Downloads](https://img.shields.io/packagist/dt/ottosmops/md5sum.svg?style=flat-square)](https://packagist.org/packages/ottosmops/md5sum)
 
+** This package is not maintained any longer. Me, I use the ottosmops/hash package instead **
+
 ## Installation
 
 ```bash
